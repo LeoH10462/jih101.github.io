@@ -25,3 +25,8 @@ body {
     background-attachment: fixed; 
 }
 
+.carousel-item img {
+    height: 500px; /* Set a fixed height */
+    width: 100%; /* Set width to be responsive */
+    object-fit: cover; /* Ensure the image covers the area without distorting aspect ratio */
+}
