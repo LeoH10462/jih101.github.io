@@ -30,3 +30,36 @@ body {
     width: 100%; /* Set width to be responsive */
     object-fit: cover; /* Ensure the image covers the area without distorting aspect ratio */
 }
+
+/* Style for Project Title */
+.project-details h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Style for Project Paragraphs */
+.project-details p {
+    text-align: justify;
+}
+
+/* Style for Images in Project Details */
+.project-details img {
+    width: 70%;
+    display: block; /* Make the image a block-level element */
+    margin: 0 auto; 
+}
+
+.project-details p {
+    font-size: 16px; /* Example font size */
+    color: #333; /* Example text color */
+    /* Add more styles as needed */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa; /* Example background color */
+    color: #333; /* Example text color */
+}
+
+    
