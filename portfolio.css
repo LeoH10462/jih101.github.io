@@ -1,6 +1,27 @@
  /* Carousel image sizes */
-        #hobbyCarousel .carousel-item img {
-            width: 100%; /* responsive width */
-            height: 500px; /* keep the height fixed height */
-            object-fit: cover; /* don't want the image to be distorted */
-        }
+#hobbyCarousel .carousel-item img {
+    width: 100%; /* responsive width */
+    height: 500px; /* keep the height fixed height */
+    object-fit: cover; /* don't want the image to be distorted */
+}
+
+.text-center{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+}
+
+h2.text-center{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* change body prop */
+body {
+    background-image: url('images/_wallpaper.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
